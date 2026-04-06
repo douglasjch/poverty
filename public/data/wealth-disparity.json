@@ -1,0 +1,22 @@
+{
+    "metric": "Wealth Disparity (Gini Coefficient)",
+    "unit": "coefficient",
+    "data": [
+      { "year": 1975, "value": 0.397, "citationId": "census-1975-gini" },
+      { "year": 1980, "value": 0.403, "citationId": "census-1980-gini" },
+      { "year": 1985, "value": 0.419, "citationId": "census-1985-gini" },
+      { "year": 1990, "value": 0.428, "citationId": "census-1990-gini" },
+      { "year": 1995, "value": 0.450, "citationId": "census-1995-gini" },
+      { "year": 2000, "value": 0.462, "citationId": "census-2000-gini" },
+      { "year": 2005, "value": 0.469, "citationId": "census-2005-gini" },
+      { "year": 2010, "value": 0.470, "citationId": "census-2010-gini" },
+      { "year": 2015, "value": 0.482, "citationId": "census-2015-gini" },
+      { "year": 2020, "value": 0.489, "citationId": "census-2020-gini" },
+      { "year": 2021, "value": 0.491, "citationId": "census-2021-gini" },
+      { "year": 2022, "value": 0.494, "citationId": "census-2022-gini" },
+      { "year": 2023, "value": 0.496, "citationId": "census-2023-gini" },
+      { "year": 2024, "value": 0.498, "citationId": "census-2024-gini" },
+      { "year": 2025, "value": 0.500, "citationId": "census-2025-gini" },
+      { "year": 2026, "value": 0.502, "citationId": "census-2026-gini" }
+    ]
+  }

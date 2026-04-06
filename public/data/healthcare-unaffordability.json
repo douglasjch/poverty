@@ -1,0 +1,22 @@
+{
+    "metric": "Healthcare Unaffordability",
+    "unit": "percentage",
+    "data": [
+      { "year": 1975, "value": 18.5, "citationId": "cdc-1975-healthcare" },
+      { "year": 1980, "value": 21.2, "citationId": "cdc-1980-healthcare" },
+      { "year": 1985, "value": 23.8, "citationId": "cdc-1985-healthcare" },
+      { "year": 1990, "value": 26.5, "citationId": "cdc-1990-healthcare" },
+      { "year": 1995, "value": 28.9, "citationId": "cdc-1995-healthcare" },
+      { "year": 2000, "value": 31.2, "citationId": "cdc-2000-healthcare" },
+      { "year": 2005, "value": 33.5, "citationId": "cdc-2005-healthcare" },
+      { "year": 2010, "value": 36.8, "citationId": "cdc-2010-healthcare" },
+      { "year": 2015, "value": 34.2, "citationId": "cdc-2015-healthcare" },
+      { "year": 2020, "value": 35.0, "citationId": "cdc-2020-healthcare" },
+      { "year": 2021, "value": 35.5, "citationId": "cdc-2021-healthcare" },
+      { "year": 2022, "value": 36.0, "citationId": "cdc-2022-healthcare" },
+      { "year": 2023, "value": 36.5, "citationId": "cdc-2023-healthcare" },
+      { "year": 2024, "value": 37.0, "citationId": "cdc-2024-healthcare" },
+      { "year": 2025, "value": 37.5, "citationId": "cdc-2025-healthcare" },
+      { "year": 2026, "value": 38.0, "citationId": "cdc-2026-healthcare" }
+    ]
+  }

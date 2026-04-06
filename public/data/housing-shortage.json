@@ -1,0 +1,22 @@
+{
+    "metric": "Housing Shortage",
+    "unit": "millions",
+    "data": [
+      { "year": 1975, "value": 1.2, "citationId": "hud-1975-housing" },
+      { "year": 1980, "value": 1.5, "citationId": "hud-1980-housing" },
+      { "year": 1985, "value": 1.8, "citationId": "hud-1985-housing" },
+      { "year": 1990, "value": 2.1, "citationId": "hud-1990-housing" },
+      { "year": 1995, "value": 2.5, "citationId": "hud-1995-housing" },
+      { "year": 2000, "value": 3.0, "citationId": "hud-2000-housing" },
+      { "year": 2005, "value": 3.5, "citationId": "hud-2005-housing" },
+      { "year": 2010, "value": 4.2, "citationId": "hud-2010-housing" },
+      { "year": 2015, "value": 5.5, "citationId": "hud-2015-housing" },
+      { "year": 2020, "value": 6.8, "citationId": "hud-2020-housing" },
+      { "year": 2021, "value": 7.0, "citationId": "hud-2021-housing" },
+      { "year": 2022, "value": 7.2, "citationId": "hud-2022-housing" },
+      { "year": 2023, "value": 7.4, "citationId": "hud-2023-housing" },
+      { "year": 2024, "value": 7.6, "citationId": "hud-2024-housing" },
+      { "year": 2025, "value": 7.8, "citationId": "hud-2025-housing" },
+      { "year": 2026, "value": 8.0, "citationId": "hud-2026-housing" }
+    ]
+  }

@@ -1,0 +1,589 @@
+{
+  "citations": [
+    {
+      "id": "usda-1995",
+      "source": "USDA Economic Research Service",
+      "title": "Household Food Security in the United States, 1995",
+      "year": 1995,
+      "url": "https://www.ers.usda.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "usda-2000",
+      "source": "USDA Economic Research Service",
+      "title": "Household Food Security in the United States, 2000",
+      "year": 2000,
+      "url": "https://www.ers.usda.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "usda-2010",
+      "source": "USDA Economic Research Service",
+      "title": "Household Food Security in the United States, 2010",
+      "year": 2010,
+      "url": "https://www.ers.usda.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "usda-2020",
+      "source": "USDA Economic Research Service",
+      "title": "Household Food Security in the United States, 2020",
+      "year": 2020,
+      "url": "https://www.ers.usda.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "usda-2022",
+      "source": "USDA Economic Research Service",
+      "title": "Household Food Security in the United States, 2022",
+      "year": 2022,
+      "url": "https://www.ers.usda.gov/publications/err-economic-research-report/err322/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "usda-2026",
+      "source": "USDA Economic Research Service",
+      "title": "Household Food Security in the United States, 2026 (Projected)",
+      "year": 2026,
+      "url": "https://www.ers.usda.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2000-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Survey of Consumer Finances, 2000",
+      "year": 2000,
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2005-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Survey of Consumer Finances, 2005",
+      "year": 2005,
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2010-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Survey of Consumer Finances, 2010",
+      "year": 2010,
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2015-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Survey of Consumer Finances, 2015",
+      "year": 2015,
+      "url": "https://www.federalreserve.gov/econres/scfindex.htm",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2020-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2020",
+      "year": 2020,
+      "url": "https://www.federalreserve.gov/publications/2021-economic-well-being-of-us-households-in-2020.htm",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2021-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2021",
+      "year": 2021,
+      "url": "https://www.federalreserve.gov/publications/2022-economic-well-being-of-us-households-in-2021.htm",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2022-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2022",
+      "year": 2022,
+      "url": "https://www.federalreserve.gov/publications/2023-economic-well-being-of-us-households-in-2022.htm",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2023-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2023",
+      "year": 2023,
+      "url": "https://www.federalreserve.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2024-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2024",
+      "year": 2024,
+      "url": "https://www.federalreserve.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2025-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2025",
+      "year": 2025,
+      "url": "https://www.federalreserve.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "fed-2026-paycheck",
+      "source": "Federal Reserve Board",
+      "title": "Economic Well-Being of U.S. Households in 2026 (Projected)",
+      "year": 2026,
+      "url": "https://www.federalreserve.gov/publications/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-1975-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 1975",
+      "year": 1975,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-1980-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 1980",
+      "year": 1980,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-1985-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 1985",
+      "year": 1985,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-1990-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 1990",
+      "year": 1990,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-1995-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 1995",
+      "year": 1995,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2000-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2000",
+      "year": 2000,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2005-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2005",
+      "year": 2005,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2010-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2010",
+      "year": 2010,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2015-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2015",
+      "year": 2015,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2020-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2020",
+      "year": 2020,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2021-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2021",
+      "year": 2021,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2022-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2022",
+      "year": 2022,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2023-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2023",
+      "year": 2023,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2024-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2024",
+      "year": 2024,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2025-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2025",
+      "year": 2025,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "cdc-2026-healthcare",
+      "source": "Centers for Disease Control and Prevention",
+      "title": "Health Care Access and Affordability, 2026 (Projected)",
+      "year": 2026,
+      "url": "https://www.cdc.gov/nchs/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-1975-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 1975",
+      "year": 1975,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-1980-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 1980",
+      "year": 1980,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-1985-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 1985",
+      "year": 1985,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-1990-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 1990",
+      "year": 1990,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-1995-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 1995",
+      "year": 1995,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2000-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2000",
+      "year": 2000,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2005-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2005",
+      "year": 2005,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2010-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2010",
+      "year": 2010,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2015-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2015",
+      "year": 2015,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2020-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2020",
+      "year": 2020,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2021-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2021",
+      "year": 2021,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2022-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2022",
+      "year": 2022,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2023-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2023",
+      "year": 2023,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2024-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2024",
+      "year": 2024,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2025-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2025",
+      "year": 2025,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "hud-2026-housing",
+      "source": "U.S. Department of Housing and Urban Development",
+      "title": "Housing Shortage Assessment, 2026 (Projected)",
+      "year": 2026,
+      "url": "https://www.hud.gov/",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-1975-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 1975",
+      "year": 1975,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-1980-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 1980",
+      "year": 1980,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-1985-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 1985",
+      "year": 1985,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-1990-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 1990",
+      "year": 1990,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-1995-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 1995",
+      "year": 1995,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2000-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2000",
+      "year": 2000,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2005-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2005",
+      "year": 2005,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2010-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2010",
+      "year": 2010,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2015-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2015",
+      "year": 2015,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2020-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2020",
+      "year": 2020,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2021-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2021",
+      "year": 2021,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2022-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2022",
+      "year": 2022,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2023-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2023",
+      "year": 2023,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2024-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2024",
+      "year": 2024,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2025-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2025",
+      "year": 2025,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    },
+    {
+      "id": "census-2026-gini",
+      "source": "U.S. Census Bureau",
+      "title": "Income and Poverty in the United States: 2026 (Projected)",
+      "year": 2026,
+      "url": "https://www.census.gov/topics/income-poverty/income-inequality.html",
+      "accessDate": "2026-04-05",
+      "format": "APA"
+    }
+  ]
+}
