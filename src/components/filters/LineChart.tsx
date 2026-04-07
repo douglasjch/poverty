@@ -18,7 +18,21 @@ const METRIC_LABELS = {
   'wealth-disparity': 'Wealth Disparity (Gini Coefficient)',
 };
 
-export default function LineChart({ data, yearRange, selectedMetrics }) {
+interface ChartData {
+  foodInsecurity?: { data: Array<{ year: number; value: number }> };
+  paycheckToPaycheck?: { data: Array<{ year: number; value: number }> };
+  healthcareUnaffordability?: { data: Array<{ year: number; value: number }> };
+  housingShortage?: { data: Array<{ year: number; value: number }> };
+  wealthDisparity?: { data: Array<{ year: number; value: number }> };
+}
+
+interface LineChartProps {
+  data: ChartData | null;
+  yearRange: [number, number];
+  selectedMetrics: string[];
+}
+
+export default function LineChart({ data, yearRange, selectedMetrics }: LineChartProps) {
   if (!data) return <div>Loading chart...</div>;
 
   // Filter data by year range
@@ -35,7 +49,7 @@ export default function LineChart({ data, yearRange, selectedMetrics }) {
         <YAxis 
           label={{ value: 'Value', angle: -90, position: 'insideLeft' }}
         />
-        <Tooltip content={<CustomTooltip />} />
+       
         <Legend />
         
         {(selectedMetrics.includes('all') || selectedMetrics.includes('food-insecurity')) && (
@@ -97,8 +111,24 @@ export default function LineChart({ data, yearRange, selectedMetrics }) {
   );
 }
 
+interface TooltipPayload {
+  color: string;
+  name: string;
+  value?: number;
+  dataKey: string;
+  payload: {
+    citations?: Record<string, string>;
+  };
+}
+
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: TooltipPayload[];
+  label?: string;
+}
+
 // Custom tooltip with citations
-function CustomTooltip({ active, payload, label }) {
+function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
   if (active && payload && payload.length) {
     return (
       <div className="bg-white p-4 border border-gray-300 rounded shadow-lg">
@@ -120,12 +150,21 @@ function CustomTooltip({ active, payload, label }) {
   return null;
 }
 
+interface YearDataPoint {
+  year: number;
+  foodInsecurity?: number | null;
+  paycheckToPaycheck?: number | null;
+  healthcareUnaffordability?: number | null;
+  housingShortage?: number | null;
+  wealthDisparity?: number | null;
+}
+
 // Helper function to prepare chart data
-function prepareChartData(data, yearRange, selectedMetrics) {
-  const chartData = [];
+function prepareChartData(data: ChartData, yearRange: [number, number], selectedMetrics: string[]): YearDataPoint[] {
+  const chartData: YearDataPoint[] = [];
   
   for (let year = yearRange[0]; year <= yearRange[1]; year++) {
-    const yearData = { year };
+    const yearData: YearDataPoint = { year };
     
     if (data.foodInsecurity) {
       const point = data.foodInsecurity.data.find(d => d.year === year);

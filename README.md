@@ -1,2 +1,2 @@
 Poverty is the USA
-Dashboard to display heatmap and graph 
+Dashboard to display heatmap and graph of Poverty and Wealth

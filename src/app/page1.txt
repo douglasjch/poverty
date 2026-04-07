@@ -1,0 +1,47 @@
+'use client';
+
+import Pager from './pager';
+
+export default function Dashboard() {
+   
+  
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+    <Pager />
+      
+      <main className="container mx-auto px-4 py-8">
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">
+            US Poverty & Wealth Disparity Dashboard
+          </h1>
+          <p className="text-gray-600">
+            Comprehensive analysis of poverty metrics and economic inequality (1975-Present)
+          </p>
+        </div>
+
+        {/* Filters Section */}
+        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-xl font-semibold mb-4">Filters</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+          </div>
+        </div>
+
+
+        {/* Charts Section */}
+        <div className="grid grid-cols-1 gap-8 mb-8">
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h2 className="text-2xl font-semibold mb-4">Trends Over Time</h2>
+            
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h2 className="text-2xl font-semibold mb-4">Heat Map Analysis</h2>
+            
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}

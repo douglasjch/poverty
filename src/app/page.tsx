@@ -79,7 +79,7 @@ export default function Dashboard() {
         <div className="grid grid-cols-1 gap-8 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-2xl font-semibold mb-4">Trends Over Time</h2>
-            <LineChart 
+            <LineChart
               data={data} 
               yearRange={yearRange}
               selectedMetrics={selectedMetrics}
