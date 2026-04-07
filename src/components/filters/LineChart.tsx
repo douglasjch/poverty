@@ -18,16 +18,10 @@ const METRIC_LABELS = {
   'wealth-disparity': 'Wealth Disparity (Gini Coefficient)',
 };
 
-interface ChartData {
-  foodInsecurity?: { data: Array<{ year: number; value: number | null }> };
-  paycheckToPaycheck?: { data: Array<{ year: number; value: number | null }> };
-  healthcareUnaffordability?: { data: Array<{ year: number; value: number | null }> };
-  housingShortage?: { data: Array<{ year: number; value: number | null }> };
-  wealthDisparity?: { data: Array<{ year: number; value: number | null }> };
-}
+import { AllData } from '@/types';
 
 interface LineChartProps {
-  data: ChartData | null;
+  data: AllData | null;
   yearRange: [number, number];
   selectedMetrics: string[];
 }
@@ -160,7 +154,7 @@ interface YearDataPoint {
 }
 
 // Helper function to prepare chart data
-function prepareChartData(data: ChartData, yearRange: [number, number], selectedMetrics: string[]): YearDataPoint[] {
+function prepareChartData(data: AllData, yearRange: [number, number], selectedMetrics: string[]): YearDataPoint[] {
   const chartData: YearDataPoint[] = [];
   
   for (let year = yearRange[0]; year <= yearRange[1]; year++) {
