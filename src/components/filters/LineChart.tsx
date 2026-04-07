@@ -1,6 +1,7 @@
 'use client';
 
 import { LineChart as RechartsLineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { AllData } from '@/types';
 
 const METRIC_COLORS = {
   'food-insecurity': '#ef4444',
@@ -17,8 +18,6 @@ const METRIC_LABELS = {
   'housing-shortage': 'Housing Shortage (Millions)',
   'wealth-disparity': 'Wealth Disparity (Gini Coefficient)',
 };
-
-import { AllData } from '@/types';
 
 interface LineChartProps {
   data: AllData | null;
