@@ -19,11 +19,11 @@ const METRIC_LABELS = {
 };
 
 interface ChartData {
-  foodInsecurity?: { data: Array<{ year: number; value: number }> };
-  paycheckToPaycheck?: { data: Array<{ year: number; value: number }> };
-  healthcareUnaffordability?: { data: Array<{ year: number; value: number }> };
-  housingShortage?: { data: Array<{ year: number; value: number }> };
-  wealthDisparity?: { data: Array<{ year: number; value: number }> };
+  foodInsecurity?: { data: Array<{ year: number; value: number | null }> };
+  paycheckToPaycheck?: { data: Array<{ year: number; value: number | null }> };
+  healthcareUnaffordability?: { data: Array<{ year: number; value: number | null }> };
+  housingShortage?: { data: Array<{ year: number; value: number | null }> };
+  wealthDisparity?: { data: Array<{ year: number; value: number | null }> };
 }
 
 interface LineChartProps {
